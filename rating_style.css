@@ -1,0 +1,22 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.star-rating li a.star, ul.rating-list a.star {
+    text-decoration: none;
+    color: rgb(230, 176, 0);
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.active-star {
+    color: rgb(230, 176, 0) !important;
+}
+
+.inactive-star {
+    color: rgb(100, 100, 100) !important;
+}
